@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+  <div class="container"id="main">
+
+    <div class="navbar navbar-fixed-top navbar-inverse  ">
+      <div class="container ">
+        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img src="image/logo.jpg" alt="your logo" id="mainLogo">
+        <a class="navbar-brand pull-left standard-logo" href="/" id="logoText">Unreal Games </a>
+
+
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li ><a href="html/moregames.html">More Games</a></li>
+            <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown">Community<strong class=" caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Overview</a>
+                </li>
+
+                <li>
+                  <a href="#">Press</a>
+                </li>
+
+                <li>
+                  <a href="#">Investors</a>
+                </li>
+
+                <li class="divider">
+                </li>
+
+                <li class="dropdown-header">More Services</li>
+
+              </ul><!--end dropdown menu-->
+
+            </li><!--ended community-->
+
+            <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown">Careers<strong class=" caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">Unreal Experience</a>
+                </li>
+
+                <li>
+                  <a href="#">Search For Jobs</a>
+                </li>
+
+                <li>
+                  <a href="#">Our Locations</a>
+                </li>
+
+
+                <li class="divider">
+                </li>
+
+                <li class="dropdown-header">More</li>
+                <li>
+                  <a href="#">Internship</a>
+                </li>
+                <li>
+                  <a href="#">Full Time</a>
+                </li>
+              </ul><!--end dropdown menu-->
+
+            </li><!--ended community-->
+          </ul>
+          <form class="navbar-form pull-left">
+            <input type="text" class="form-control" placeholder="Search this site" id="searchInput">
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+          <ul class="nav navbar-nav pull-right">
+            <li class="f">
+              <a href="#" class="dropdown-toggle " data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> MyAccount<strong class="caret"></strong></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings </a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-refresh"></span> Profile</a>
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-briefcase"></span> Billing</a>
+                </li>
+                <li class="divider">
+                </li>
+                <li>
+                  <a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a>
+                </li>
+              </ul>
+
+            </li>
+          </ul><!--end pull right-->
+        </div> <!--end nav collapse-->
+      </div><!--end container-->
+    </div><!--navigation bar ended-->
+
+    <div class="jumbotron" id="jumbo">
+    <div class="carousel slide" id="myCarousel">
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li class="active " data-slide-to="0" data-target="#myCarousel">  </li>
+        <li data-slide-to="1" data-target="#myCarousel">  </li>
+        <li data-slide-to="2" data-target="#myCarousel">  </li>
+        <li data-slide-to="3" data-target="#myCarousel">  </li>
+      </ol>
+
+      <!--wrapper for carousel-->
+      <div class="carousel-inner">
+
+        <div class="item active" id="slide1">
+          <div class="carousel-caption">
+            <h4>Bootstrap 3</h4>
+            <p> Learn your Bootstrap</p>
+          </div><!--end carousel caption-->
+        </div><!--end item-->
+
+        <div class="item"  id="slide2">
+          <div class="carousel-caption">
+            <h4>Learn to code in 4 hrs</h4>
+            <p> Front to Back end</p>
+          </div><!--end carousel caption-->
+        </div><!--end item-->
+
+        <div class="item" id="slide3">
+          <div class="carousel-caption">
+            <h4>Web Hosting</h4>
+            <p> Hosting in the Web</p>
+          </div><!--end carousel caption-->
+        </div><!--end item-->
+
+        <div class="item" id="slide4">
+          <div class="carousel-caption">
+            <h4>Web Hosting</h4>
+            <p> Hosting in the Web</p>
+          </div><!--end carousel caption-->
+        </div><!--end item-->
+
+      </div><!--end carousel inner-->
+
+      <!--controls-->
+      <a class= "left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+      <a class= "right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+    </div><!-- Carousel ended-->
+
+    <div class="row" id="bigCallout">
+      <div class="col-12">
+
+        <!--only for small devices-->
+        <div class="well well-small visible-sm">
+          <a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Call us!!</a>
+        </div><!--small well ends-->
+        <div class="well">
+          <div class="page-header">
+            <h2>Unreal Tournament</h2>
+
+          </div><!--end page header-->
+          <p class="lead"><strong>Get ready fot the biggest Game Tournament.</strong>Earn in-game rewards as you hone your skills in Basic Training, compete in online matches, and complete Offline Challenges. </small></p>
+          <a href=" #myModal1" role="button"class="btn btn-large btn-primary" data-toggle="modal">Participate Now</a>
+            <div class="modal fade" id="myModal1">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Unreal Tournament</h4>
+                  </div><!--end modal-header-->
+
+                  <div class="modal-body">
+
+                    <p><small>Please Enter your details to Participate.</small></p>
+
+                    <form class="form-horizontal">
+                      <div class="form-group" >
+                        <label class="col-lg-4 control-label" for="inputName">First Name</label>
+                        <div class="col-lg-8">
+                          <input class="form-control" id="inputName" placeholder="First Name" type="text">
+                        </div>
+                      </div>
+
+                      <div class="form-group" >
+                        <label class="col-lg-4 control-label" for="inputName">Last Name</label>
+                        <div class="col-lg-8">
+                          <input class="form-control" id="inputName" placeholder="Last Name" type="text">
+                        </div>
+                      </div>
+
+                      <div class="form-group" >
+                        <label class="col-lg-4 control-label" for="inputEmail">Address</label>
+                        <div class="col-lg-8">
+                          <input class="form-control" id="inputName" placeholder="Address" type="email">
+                        </div>
+                      </div>
+
+                      <div class="form-group" >
+                        <label class="col-lg-4 control-label" for="inputName">Email</label>
+                        <div class="col-lg-8">
+                          <input class="form-control" id="inputName" placeholder="Email" type="text">
+                        </div>
+                      </div>
+
+                      <div class="form-group" >
+                        <label class="col-lg-4 control-label" for="inputName">Phone Number</label>
+                        <div class="col-lg-8">
+                          <input class="form-control" id="inputName" placeholder="Phone No." type="text">
+                        </div>
+                      </div>
+
+                    </form>
+                  </div><!--end modal-body-->
+
+                  <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Reset</button><button class="btn btn-primary" type="button">Submit</button>
+                  </div><!--end footer-->
+
+                </div><!--end modal-content-->
+              </div><!--end modal dialog-->
+
+            </div><!--end modal-->
+          <a href="#" class="btn btn-large btn-link">See more details </a>
+        </div>
+      </div><!--end col 12-->
+    </div><!--bigCallout ended-->
+  </div><!--jumbo ended-->
+
+
+    <div class="row" id="headings">
+      <div class="col-12">
+        <h2 >Stratergy Games</h2>
+      </div>
+    </div><!--headings ended-->
+
+
+    <div class="row" id="features2">
+      <div class="col-sm-4 feature ">
+        <div class="panel" id="panel1" >
+          <div class="panel-heading">
+            <h3 class="panel-title">Steep</h3>
+          </div><!--end panel heading-->
+
+          <a href="#"  target="_blank" class="btn btn-warning btn-block ">Battle Now!</a>
+        </div><!--end panel-->
+      </div>  <!--end feature-->
+      <div class="col-sm-4 feature ">
+        <div class="panel" id="panel2">
+          <div class="panel-heading">
+            <h3 class="panel-title">South Park</h3>
+          </div><!--end panel heading-->
+
+          <a href="#"  target="_blank" class="btn btn-warning btn-block ">Battle Now!</a>
+        </div><!--end panel-->
+      </div>  <!--end feature-->
+      <div class="col-sm-4 feature ">
+        <div class="panel" id="panel3">
+          <div class="panel-heading">
+            <h3 class="panel-title">Watch Dogs2</h3>
+          </div><!--end panel heading-->
+
+          <a href="#"  target="_blank" class="btn btn-warning btn-block ">Battle Now!</a>
+        </div><!--end panel-->
+      </div>  <!--end feature-->
+
+    </div><!--features ended-->
+
+
+    <div class="row" id="headings">
+      <div class="col-12">
+        <h2 >More Features</h2>
+        <p class="lead">Play and Download over 1800 games. Compete and  Win cash prizes on GameBattles by competing in Xbox, Playstation, and PC Online Tournaments.  </p>
+      </div>
+    </div><!--headings ended-->
+
+
+    <div class="row" id="features">
+      <div class="col-sm-4 feature ">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Game Battles</h3>
+          </div><!--end panel heading-->
+          <img src="image/gb.jpg" alt="html5 logo" class="img-circle">
+          <p>Compete online with gamers across the globe.Win rewards and get recognised in the game communities.</p>
+          <a href="#"  target="_blank" class="btn btn-warning btn-block ">Battle Now!</a>
+        </div><!--end panel-->
+      </div>  <!--end feature-->
+
+      <div class="col-sm-4 feature ">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">Play Online</h3>
+          </div><!--end panel heading-->
+          <img src="image/plo.png" alt="play online" class="img-circle" >
+          <p>Play game onlines ranging from nintendo to XBox. Includes arcade ,action ,adventure ,stratergy and many other generes.</p>
+          <a href="#"  target="_blank" class="btn btn-danger btn-block ">Play Now!</a>
+        </div><!--end panel-->
+      </div>  <!--end feature-->
+
+      <div class="col-sm-4 feature ">
+        <div class="panel">
+          <div class="panel-heading">
+            <h3 class="panel-title">New Releases </h3>
+          </div><!--end panel heading-->
+          <img src="image/nr.jpg" alt="New Releases" class="img-circle">
+          <p>See whats new in the Game Community.See trailers of the latest Released Games and add your comments.Enjoy the experience.</p>
+          <a href="#"  target="_blank" class="btn btn-info btn-block ">See Now!</a>
+        </div><!--end panel-->
+      </div>  <!--end feature-->
+    </div><!--features ended-->
+
+    <div class="row" id="moreInfo">
+      <div class="col-sm-6" >
+        <h3 id="tabText">Help us get better</h3>
+        <div class="tabbable" id="tabText">
+          <ul class="nav nav-tabs">
+            <li class="active" ><a href="#tab1" data-toggle="tab">Our Location</a></li>
+            <li ><a href="#tab2" data-toggle="tab">Any queries?</a></li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active" id="tab1">
+                <h4><span class="glyphicon glyphicon-map-marker"></span>  Our Location <small>More like our fovorite surf spot </small></h4>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.082482185454!2d77.65614951412275!3d12.837946421272049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c8124220dab%3A0xc1cee83e7596055!2sElectronic+City+Wipro+Gate!5e0!3m2!1sen!2sin!4v1472124350371" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p>Messenger bag ethical enim, dolore man braid pour-over nesciunt sartorial hammock godard squid anim. Crucifix lumbersexual wolf mustache brunch. Schlitz flexitarian drinking vinegar fanny pack, roof party et vice austin esse. Mixtape literally meditation, typewriter swag sapiente food truck bicycle rights. Squid photo booth slow-carb, wolf mustache +1 sint nisi intelligentsia aute exercitation consequat kombucha velit artisan. Hoodie do master cleanse, lo-fi butcher est stumptown raw denim godard. Polaroid pariatur literally austin commodo, mollit shoreditch synth disrupt beard you probably haven't heard of them kinfolk aliqua.</p>
+            </div><!--end tab-pane-->
+
+            <div class="tab-pane" id="tab2">
+              <img src="image/aq.jpg " width="60%" height="250  " class="thumbnail " id="img2">
+              <h4><small>You can now add your feedbacks and queries regarding our products.We will soon reach out to you.Happy Gaming!</small>  </h4>
+
+              <hr>
+
+              <a href=" #myModal" role="button"class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"> Submit your query</a>
+                <div class="modal fade" id="myModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title"> Queries and Feedbacks</h4>
+                      </div><!--end modal-header-->
+
+                      <div class="modal-body">
+
+                        <p><small>Please Submit yor queries and feedback.</small></p>
+
+                        <form class="form-horizontal">
+                          <div class="form-group" >
+                            <label class="col-lg-2 control-label" for="inputName">Name</label>
+                            <div class="col-lg-10">
+                              <input class="form-control" id="inputName" placeholder="Name" type="text">
+                            </div>
+                          </div>
+
+                          <div class="form-group" >
+                            <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                            <div class="col-lg-10">
+                              <input class="form-control" id="inputName" placeholder="Email" type="email">
+                            </div>
+                          </div>
+
+                          <div class="form-group" >
+                            <label class="col-lg-2 control-label" for="inputMessage">Message</label>
+                            <div class="col-lg-10">
+                              <textarea class="form-control" id="inputMessage" placeholder="Message" row="3 "></textarea>
+                              <button class="btn btn-success pull-right" type="submit">Send!</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div><!--end modal-body-->
+
+                      <div class="modal-footer">
+                        <button class="btn btn-default" data-dismiss="modal" type="button">Close</button><button class="btn btn-primary" type="button">Save Changes</button>
+                      </div><!--end footer-->
+
+                    </div><!--end modal-content-->
+                  </div><!--end modal dialog-->
+
+                </div><!--end modal-->
+            </div><!--end tab-pane-->
+
+          </div><!--end tab-content-->
+        </div>  <!--end tabbable-->
+      </div><!--end col 6-->
+
+      <div class="col-sm-6" id="tabText">
+        <h3 >  <span class="glyphicon glyphicon-tag"></span> Trending</h3>
+        <p>Read the game story lines and add your reviews about the game.</p>
+        <h4>Most common...</h4>
+
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Assasin Creed Revelation.</h4>
+            <p class="list-group-item-text">The main part of the story takes Ezio to Constantinople, present day Istanbul, in 1511 AD, consisting of four districts: Constantine, Bayezid, Imperial, and Galata; Cappadocia during the rise of the Ottoman Empire, part of which is a completely underground city populated solely by Templars; and Masyaf, where the old ...</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Far Cry 4</h4>
+            <p class="list-group-item-text">The game takes place in Kyrat, a fictional Himalayan country that mostly consists of sprawling mountains and forests, vast water systems, and villages. The main story follows Ajay Ghale, a young Kyrati-American, as he is caught in a civil war involving Kyrat's Royal Army, controlled by ...</p>
+          </a>
+
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Watch Dogs 2</h4>
+            <p class="list-group-item-text">Following Chicago, San Francisco becomes the next city to install the ctOS surveillance system, (the Central Operating System), which connects everyone with everything. The game features a new protagonist named Marcus Holloway (Ruffin Prentiss), a young and intelligent hacker from Oakland, California. He was wrongly framed for a crime  </p>
+          </a>
+        </div><!--lisyt group-->
+
+        <h5><a href="#">More Game Stories</a></h5>
+
+      </div><!--end col-sm-6-->
+    </div><!--moreInfo ended-->
+
+  </div><!--container ended-->
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2">
+          <h6>Copyright &copy; 2012 {name} </h6>
+        </div><!--end col-sm-2-->
+
+        <div class="col-sm-4">
+          <h6> About Us</h6>
+          <p>You probably haven't heard of them nulla biodiesel paleo pork belly, irony quis mollit master cleanse yuccie jean shorts before they sold out. Pug proident bicycle rights, semiotics mixtape hammock odio officia distillery. </p>
+
+        </div><!--end col-sm-2-->
+
+        <div class="col-sm-2">
+          <h6>Navigation</h6>
+          <ul class="unstyled">
+            <li><a href="#" class="onhover"><span class="fa fa-home" aria-hidden="true"></span> Home</a></li>
+            <li><a href="#" class="onhover"><span class="fa fa-cogs" aria-hidden="true"></span> Services</a></li>
+            <li><a href="#" class="onhover"><span class="fa fa-anchor" aria-hidden="true"></span> Links</a></li>
+            <li><a href="#" class="onhover"><span class="fa fa-mobile" aria-hidden="true"></span> Contact us</a></li>
+          </ul>
+        </div><!--end col-sm-2-->
+
+        <div class="col-sm-2">
+          <h6>Folow Us</h6>
+          <ul class="unstyled">
+            <li><a href="#" class="onhover"><span class="fa fa-twitter" aria-hidden="true"></span> Twitter</a></li>
+            <li><a href="#" class="onhover"><span class="fa fa-facebook" aria-hidden="true"></span> Facebook</a></li>
+            <li><a href="#" class="onhover"><span class="fa fa-google-plus" aria-hidden="true"></span> Google Plus</a></li>
+          </ul>
+        </div><!--end col-sm-2-->
+
+        <div class="col-sm-2">
+          <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Shambhavi</h6>
+        </div><!--end carousel_small_2-->
+
+
+      </div><!--end row-->
+    </div><!--end container-->
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
